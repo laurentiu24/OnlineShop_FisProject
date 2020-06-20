@@ -38,7 +38,7 @@ public class Controller implements Initializable{
     public TableColumn<Items,String> table_pret;
 
 
-    public int nrcrt=1;
+    public int nrcrt;
     public ObservableList<Items> data = FXCollections.observableArrayList();
 
 

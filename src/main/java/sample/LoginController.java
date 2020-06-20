@@ -15,6 +15,7 @@ public class LoginController {
     public TextField nume;
     public PasswordField parola;
 
+
     public void ExitAction(ActionEvent event) throws IOException
     {
         Parent login = FXMLLoader.load(getClass().getResource("sample.fxml"));
